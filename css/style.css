@@ -1,0 +1,546 @@
+/* Common Css */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    color:#3d2514;
+}
+/* Header Start */
+header{
+    overflow: hidden;
+    background: url(../images/bg.jpg);
+}
+.container{
+    margin: 0 auto;
+    width: 95%;
+    overflow: hidden;
+}
+.logo{
+    margin-top:45px;
+    width:30%;
+    float: left;
+}
+.logo_img{
+    width: 70%;
+}
+.logo_img img{
+    width: 100%;
+}
+.menu{
+    width: 60%;
+    float: right;
+    overflow: hidden;
+    grid-template-columns: auto;
+}
+.menu_top{
+    overflow: hidden;
+}
+.menu_top ul{
+    float: right;
+}
+.menu_top ul li{
+    float: left;
+    list-style: none;
+}
+.menu_top ul:last-child li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.67px;
+    font-weight: bold;
+    color:#3d2514;
+    margin-top: 20px;
+}
+.menu_down{
+    margin: -15px;
+    overflow: hidden;
+}
+.menu_down ul{
+    float: right;
+}
+.menu_down ul li{
+    list-style: none;
+    float: left;
+    margin: 0 25px;
+}
+.menu_down ul li a{
+    padding: 3px 18px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20.83px;
+    color:#3d2514; 
+    transition: 0.3s;
+}
+.menu_down ul:last-child li{
+    padding-right: 18px;
+    margin-right: 0px;
+}
+.menu_down ul li a:hover{
+    padding: 3px 18px;
+    background-color: #3d2514;
+    color: #FFC135;
+    border-radius: 50px;
+}
+.header_down{
+    width: 100%;
+    overflow: hidden;
+}
+.title{
+    margin-top: 60px;
+    width: 40%;
+    float: left;
+}
+.title p{
+    margin-right: 90px;
+    margin-bottom: 0;
+    font-size: 23.65px;
+    border: 1px dashed #3d2514;
+}
+.title h1{
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 114.3px;
+    transition: 0.5s;
+}
+.title h1:hover{
+    text-shadow: #3d2514 2px 2px;
+}
+.title h2{
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 56.49px;
+    transition: 0.5s;
+}
+.title h2:hover{
+    text-shadow: #3d2514 2px 2px;
+}
+.header_img{
+    padding-bottom: 50px;
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+.h_img{
+    width: 90%;
+}
+.h_img img{
+    width: 100%;
+    transition: 0.5s;
+}
+.h_img img:hover{
+    transform: rotate(5deg);
+}
+.price{
+    width: 22%;
+    position: absolute;
+    bottom: 9%;
+    left:6%;
+}
+.price img{
+    width: 100%;
+    transition: 0.5s;
+}
+.price img:hover{
+    cursor:pointer;
+    transform: rotate(360deg);
+}
+/* Header End */
+
+/* Feature Section Start */
+.f_section{
+    margin: 5% 0;
+}
+.container2{
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 4%;
+}
+.left_div{
+
+}
+.left_div:hover{
+    box-shadow: -7px 10px 5px -1px rgba(0,0,0,0.75);
+}
+.left_div img{
+    width: 100%;
+}
+.right_div{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 5%;
+}
+.top:hover{
+    box-shadow: -7px 10px 5px -1px rgba(0,0,0,0.75);
+}
+.top img{
+    width: 100%;
+}
+.bottom:hover{
+    box-shadow: -7px 10px 5px -1px rgba(0,0,0,0.75);
+}
+.bottom img{
+    width: 100%;
+}
+/* Feature Section End */
+/* About Section Start */
+.about{
+
+}
+.a_content{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.a_content h3{
+    margin: 0 auto;
+    padding: 5px 10px;
+    width: 20%;
+    background-color:#FFC135;
+    font-size: 25px;
+    font-weight: normal;
+    transition: 0.5s;
+
+}
+.a_content h3:hover{
+    color: #FFC135;
+    background-color: #3d2514;
+    border-radius: 50px;
+}
+.a_content h1{
+    margin: 0px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    font-weight: normal;
+}
+.a_content h1:hover{
+    text-shadow: #3d2514 2px 2px;
+}
+.a_content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.67px;
+}
+/* About Section End */
+/* Food Section Start */
+.food{
+
+}
+.f_content{
+    display: flex;
+    overflow: hidden;
+}
+.single{
+    margin: 0 2.4%;
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.single:first-child{
+    margin-left: 2px;
+}
+.single:last-child{
+    margin-right: 0px;
+}
+.s_img{
+    margin: 0 auto;
+    width: 80%;
+}
+.s_img img{
+    width: 100%;
+}
+.single h1{
+    margin: 0;
+    font-size: 37.5px;
+    font-weight: normal;
+}
+.single h1:hover{
+    text-shadow: #3d2514 2px 2px;
+}
+.single p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.67px;
+}
+.single button{
+    padding: 10px  20px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 16.67px;
+    color:#ffffff;
+    background-color:#DF1C1C;
+    border-style: none;
+    transition: 0.5s;
+}
+.single button:hover{
+    color:#3d2514;
+    background-color: #FFC135;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/* Food Section End */
+/* Upcoming-Food Section Start */
+.upcoming_food{
+
+}
+.container3{
+    margin: 0 auto;
+    margin-top: 4%;
+    width: 90%;
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-column-gap: 4%;
+    overflow: hidden;
+    box-shadow: -4px 4px 16px 9px rgba(0,0,0,0.75);
+}
+.text{
+    overflow: hidden;
+    padding:0 10px;
+}
+.text h3{
+    margin-bottom: 0;
+    font-size: 29.17px;
+    font-weight: normal;
+    color:#3d3d3d;
+}
+.text h3:hover{
+    text-shadow: #3d3d3d 2px 2px;
+}
+.text h1{
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 41.67px;
+    font-weight: normal;
+}
+.text h1:hover{
+    text-shadow: #3d2514 2px 2px;
+}
+.text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20.83px;
+    font-weight: normal;
+    color: #3d3d3d;
+}
+.text ul{
+    margin-top: 12%;
+    margin-left:-7%;
+}
+.text ul li{
+    list-style: none;
+    float: left;
+}
+.text ul li span{
+    margin: 0 5px;
+    display:block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background:#DDDDDD;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.text ul li:first-child span{
+    margin-left:0;
+    background-color:#FFC135;
+}
+.text ul li span:hover{
+    background-color: #FFC135;
+}
+.upcoming_img{
+    width: 100%;
+}
+.upcoming_img img{
+    width: 100%;
+}
+/* Upcoming-Food Section End */
+/* Form Section Start */
+.form_section{
+    margin: 6% 0;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 3%;
+}
+.f_pic1{
+    width: 15%;
+    position: absolute;
+    top:1%;
+    left: 1%;
+    transition: 0.5s;
+}
+.f_pic1:hover{
+    transform: rotate(360deg);
+}
+.f_pic1 img{
+    width: 100%;
+}
+.f_pic2{
+    width: 5%;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    transition: 0.5s;
+}
+.f_pic2:hover{
+    transform: rotate(15deg);
+}
+.f_pic2 img{
+    width: 100%;
+}
+.f_pic3{
+    width: 15%;
+    position: absolute;
+    right: 0%;
+    bottom:0%;
+    transition: 0.5s;
+}
+.f_pic3:hover{
+    transform: rotate(5deg);
+}
+.f_pic3 img{
+    width: 100%;
+}
+.container4{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+.container4 h3{
+    margin: 0px;
+    font-size: 29.17px;
+    font-weight: normal;
+}
+.container4 h1{
+    margin-top: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.container4 h1:hover{
+    text-shadow: #3d2514 2px 2px;
+}
+.form_div{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-column-gap: 3%;
+    overflow: hidden;
+}
+.left_form{
+    overflow: hidden;
+}
+.right_form{
+    overflow: hidden;
+}
+.form_div input{
+    width: 90%;
+    height: 35px;
+    margin: 7px 0;
+    padding: 2px 10px;
+    border-style: none;
+    outline: none;
+    border: 1px solid #3d3d3d;
+    font-size: 18.83px;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.form_div input:focus{
+    color: #ffffff;
+    background-color: #3d3d3d;
+    border-radius: 50px;
+}
+.right_form button{
+    width: 100%;
+    padding: 8px 0;
+    color: #ffffff;
+    background-color:#DF1C1C;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20.83px;
+    border-style: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.right_form button:hover{
+    color:#3d2514;
+    background-color: #FFC135;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/* Form Section End */
+/* Footer Section Start */
+footer{
+
+}
+.container5{
+    margin: 0 auto;
+    width: 95%;
+    overflow: hidden;
+    background: url(../images/footer_bg.jpg);
+    color: #ffffff;
+    padding: 3% 1%;
+}
+.footer_content{
+    overflow: hidden;
+}
+.left_side{
+    width: 40%;
+    float: left;
+}
+.left_side img{
+    width: 65%;
+    cursor: pointer;
+}
+.left_side p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.67px;
+}
+.right_side{
+    margin-top: 10%;
+    width: 30%;
+    float: right;
+}
+.right_side ul{
+
+}
+.right_side ul li{
+    list-style: none;
+    font-size: 20.83px;
+}
+.right_side ul li img{
+    width: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.copyright{
+    padding-top: 7%;
+    width: 100%;
+    overflow: hidden;
+}
+.copyright_text{
+    width: 25%;
+    float: left;
+}
+.copyright_text p{
+    font-size: 16.67px;
+}
+.follow{
+    width: 40%;
+    float: right;
+}
+.follow ul{
+    float: right;
+}
+.follow ul li{
+    list-style: none;
+    float: left;
+}
+.follow ul li a{
+    margin: 0 8px;
+}
+.follow ul li a img{
+
+}
+
+/* Footer Section End */
+
